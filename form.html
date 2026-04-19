@@ -130,7 +130,7 @@
             </div>
 
             <div class="btn">
-                <button id="btn">Log In</button>
+                <button id="btn" class="btn-log-in">Log In</button>
             </div>
             <div class="account">
                 <span>If you do not have an account,<br>Make an account <a href="#" class="hrefsignup" id="hrefsignup">Sign UP</a> </span>
@@ -160,7 +160,7 @@
                 <input type="password" class="password" type="password" placeholder="enter your password" minlength="6" maxlength="12" required>
             </div>
             <div class="btn">
-                <button id="btn" type="submit">Sign UP</button>
+                <button id="btn" class="btn-sign-up" type="submit">Sign UP</button>
             </div>
         </div>
     </form>
@@ -173,6 +173,16 @@
             e.preventDefault();
             login.style.display = "none";
             signup.style.display = "flex";
+        })
+
+        let loginbtn1 = document.querySelector(".btn-log-in");
+        let signupbtn1 = document.querySelector(".btn-sign-up");
+
+        signupbtn1.addEventListener("click", () => {
+            alert("Your account has been created successfully , please log in your account and attach with us")
+        })
+        loginbtn1.addEventListener("click", () => {
+            alert("your account has been created successfully. Lets enjoy it.");
         })
     </script>
 </body>
