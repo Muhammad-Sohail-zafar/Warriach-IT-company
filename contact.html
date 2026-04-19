@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background-color: #11315a;
+            color: white;
+            letter-spacing: 0.07rem;
+        }
+        
+        .section-1 {
+            color: white;
+            padding-top: 50px;
+        }
+        
+        .container-1 {
+            gap: 20px;
+        }
+        
+        .image {
+            position: relative;
+            background-image: url(https://www.availity.com/wp-content/themes/custom/img/banner-bg-connect.jpg);
+            width: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 20px;
+            height: 15rem;
+            padding-left: 20px;
+            letter-spacing: 0.07rem;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-direction: column;
+            gap: 10px;
+        }
+        
+        .image h1 {
+            font-size: 2.5rem;
+        }
+        
+        .section-2 {
+            margin-top: 60px;
+        }
+        
+        .container-2 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+        
+        .text-box {
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-direction: column;
+        }
+        
+        .text-box h2 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            letter-spacing: 0.09rem;
+        }
+        
+        .text-box strong {
+            font-size: 1.3rem;
+            font-weight: 300;
+        }
+        
+        .text-box button {
+            margin-top: 30px;
+            margin-bottom: 20px;
+        }
+        
+        .image-box {
+            width: 100%;
+            object-fit: cover;
+            object-position: center;
+            border-radius: 50%;
+        }
+        
+        .image-box img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+        }
+        
+        .section-3 .container-2 .image-box {
+            width: 70%;
+        }
+        
+        .section-3 .container-2 {
+            margin-top: 50px;
+            padding: 50px;
+            border-radius: 30px;
+        }
+        
+        @media (max-width:1020px) {
+            .container-2 {
+                flex-direction: column;
+            }
+            .image-box {
+                width: 70%;
+                padding-top: 60px;
+            }
+            .section-3 .container-2 .image-box {
+                width: 60%;
+            }
+        }
+        
+        .section-4 {
+            padding: 50px;
+        }
+        
+        .container-4 {
+            margin-top: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 50px;
+            padding: 100px;
+            background-color: #0d2543;
+            border-radius: 30px;
+        }
+        
+        .box h3 {
+            font-size: 2rem;
+            font-weight: 600;
+            letter-spacing: 0.07rem;
+            margin-bottom: 50px;
+        }
+        
+        .box strong {
+            font-size: 1.5rem;
+            font-weight: 300;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="section-1" id="section-1">
+        <div class="container container-better">
+            <div class="image">
+                <strong>Connect:</strong>
+                <h1>The Warriach Platform for Providers</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="section-2" id="section-2">
+        <div class="container container-2">
+            <div class="text-box">
+                <br>
+                <h2>Contact a Sales Associate</h2> <br>
+                <strong>
+           Speak with one of our knowledgeable sales associates to help you find the right solution for your organization.
+               </strong>
+                <br> <br> <br>
+                <strong>If you’re an existing Warriach client looking to submit a support ticket, please follow the instructions below. For your security and to safeguard sensitive information, Availity cannot respond to customer or user support inquiries submitted through this form.
+
+               </strong>
+                <button class="btn btn-outline-success login standard btn-2" id="btn-2" type="submit">LEARN MORE</button>
+
+            </div>
+            <div class="image-box">
+                <img src="https://www.availity.com/wp-content/uploads/2024/05/fingers-typing.jpg" alt="">
+            </div>
+
+        </div>
+    </div>
+
+    <div class="section-3" id="section-3">
+        <div class="container container-2" style="background-color:#0d2543;">
+            <div class="image-box">
+                <img src="https://www.availity.com/wp-content/uploads/2024/05/register-vendors.jpg" alt="">
+            </div>
+            <div class="text-box">
+                <br>
+                <h2 style="color: yellow;">Become a Vendor or Partner</h2> <br>
+                <br>
+                <strong>Are you a developer or vendor looking for API capabilities? Or are you looking to become a reseller? Contact our Trading Partner and Channel team below.
+               </strong>
+                <button class="btn btn-outline-success login standard btn-2" id="btn-2" type="submit">SUBMIT REQUEST</button>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="section-4" id="section-4">
+        <div class="conatiner container-4">
+            <div class="box box-1">
+                <h3>Warriach Essentials, Essentials Plus, or EDI Clearinghouse Customers:</h3>
+                <strong>If you have an Warriach Essentials, Essentials Plus, or EDI Clearinghouse account and cannot log in to submit a ticket, call 1-800-282-4548 for support.</strong>
+            </div>
+            <div class="box box-2">
+                <h3>Warriach Essentials PRO (RCM) Customers:</h3>
+                <strong>If you have an Warriach Essentials Pro account and cannot log in to submit a ticket, call 1-877-927-8000 for support.</strong>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

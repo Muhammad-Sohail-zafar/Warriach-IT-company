@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background-color: #11315a;
+            color: white;
+            letter-spacing: 0.07rem;
+        }
+        
+        .section-1 {
+            color: white;
+            padding-top: 50px;
+        }
+        
+        .container-1 {
+            gap: 20px;
+        }
+        
+        .image {
+            position: relative;
+            background-image: url(https://www.availity.com/wp-content/uploads/2024/03/banner-bg-vendor.jpg);
+            width: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 20px;
+            height: 15rem;
+            padding-left: 20px;
+            letter-spacing: 0.07rem;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .image h1 {
+            font-size: 2.5rem;
+        }
+        
+        .section-2 .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding-top: 50px;
+        }
+        
+        .section-2 .container h2 {
+            font-size: 2rem;
+            font-weight: 700;
+            padding-bottom: 20px;
+        }
+        
+        .container-2 {
+            width: 50%;
+        }
+        
+        .section-2 .container strong {
+            font-size: 1.2rem;
+            font-weight: 300;
+            text-align: center;
+            padding-bottom: 20px;
+        }
+        
+        .section-2 .container button {
+            border: 2px solid green;
+            font-size: 1rem;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 10px;
+        }
+        
+        .section-3 {
+            padding-top: 50px;
+        }
+        
+        .container-3 {
+            background-color: #0d2543;
+            padding: 40px;
+            border-radius: 20px;
+        }
+        
+        .container-3 h1 {
+            background: linear-gradient(135deg, rgb(252, 185, 0) 0%, rgb(255, 105, 0) 100%);
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-size: 2rem;
+            font-weight: 600;
+            padding-top: 20px;
+        }
+        
+        .boxes {
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+            margin-top: 40px;
+        }
+        
+        .box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            border: 2px solid #91b0da;
+            padding: 20px;
+            letter-spacing: 0.06rem;
+            border-radius: 20px;
+            /* width: 50%; */
+        }
+        
+        .box h3 {
+            font-size: 1.9rem;
+            font-weight: 700;
+            padding-bottom: 15px;
+            text-align: left;
+        }
+        
+        .box strong {
+            font-size: 1.1rem;
+            font-weight: 300;
+            text-align: left;
+            padding-top: 20px;
+        }
+        
+        .box button {
+            margin-top: 30px;
+            border: 2px solid green;
+            font-size: 1rem;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 32px;
+        }
+        
+        @media (min-width:780px) {
+            .box {
+                height: 22rem;
+            }
+        }
+        
+        @media (max-width:720px) {
+            .container-2 {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="section-1" id="section-1">
+        <div class="container container-better">
+            <div class="image">
+                <img src="https://www.availity.com/wp-content/uploads/2024/03/banner-icon-vendor.svg" alt="">
+                <h1>The Warriach Platform for HITs</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="section-2" id="section-2">
+        <div class="container container-2">
+            <h2>Better Solutions for HITs</h2>
+            <strong>Warriach’s connectivity solutions allow you to seamlessly deliver complete and accurate healthcare information from our nationwide network of payers. Partnering with Availity allows you to focus on your customers and core solution, while we support you behind the scenes with connectivity, security, and unwavering customer support.</strong>
+
+        </div>
+    </div>
+
+    <div class="section-3 text-center" id="section-3">
+        <div class="container container-3">
+            <p>Tailored solutions for Vendors</p>
+            <h1>Seamlessly deliver complete and accurate healthcare information.</h1>
+            <div class="boxes">
+                <div class="box box-11">
+                    <h3>Heathcare Connectivity</h3>
+                    <strong>Discover how Warriach helps vendors and trading partners facilitate seamless data exchange via X12, REST, and FHIR APIs.</strong>
+                    <button class="btn btn-outline-success login standard btn-3" id="btn-3" type="submit">LEARN MORE</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
